@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--==================== UNICONS ====================-->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+  <!--==================== CSS ====================-->
+  <link rel="stylesheet" href="./assets/css/styles.css">
+
+  <title>Zenia's Portfolio</title>
+</head>
+
+<body>
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Zenia Parvin</a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list grid">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">
+              <i class="uil uil-estate nav__icon"></i> Home
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">
+              <i class="uil uil-user nav__icon"></i> About
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">
+              <i class="uil uil-file-alt nav__icon"></i> Skills
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#portfolio" class="nav__link">
+              <i class="uil uil-scenery nav__icon"></i> Portfolio
+            </a>
+          </li>
+        </ul>
+        <i class="uil uil-times nav__close" id="nav-close"></i>
+      </div>
+      <div class="nav__btns">
+
+        <!-- theme change button  -->
+        <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="uil uil-apps"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--==================== MAIN ====================-->
+  <main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__content grid">
+          <div class="home__social">
+            <a href="https://www.linkedin.com/in/zenia-parvin-2927a42b2/" target="_blank" class="home__social-icon">
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+            <a href="https://github.com/zeniaparvin" target="_blank" class="home__social-icon">
+              <i class="uil uil-github-alt"></i>
+            </a>
+          </div>
+          <div class="home__img">
+            <img class="home__blob-img" src="./assets/img/profile.png" alt="profile" />
+          </div>
+          <div class="home__data">
+            <h1 class="home__title">Hi, I'am Zenia</h1>
+            <h3 class="home__subtitle">Web Developer</h3>
+            <p class="home__discription"> Bringing Web solutions to life with creativity, technical excellence, and
+              attention to detail.</p>
+            <a href="mailto:zeniaparvin18@gmail.com" class="button button--flex">
+              Contact Me<i class="uil uil-message button__icon"></i>
+            </a>
+          </div>
+        </div>
+        <div class="home__scroll">
+          <a href="#about" class="home__scroll-button button--flex">
+            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+            <span class="home__scroll-name">Scroll down</span>
+            <i class="uil uil-arrow-down"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== ABOUT ====================-->
+    <section class="about section" id="about">
+      <h2 class="section__title">About Me</h2>
+      <span class="section__subtitle">My introduction</span>
+      <div class="about__container container grid">
+        <img src="./assets/img/about-img.jpg" alt="about" class="about__img">
+        <div class="about__data">
+          <p class="about__description">
+            Full-Stack Developer with extensive knowledge and years of experience, working in various UI frameworks,
+            Node.js, web technologies, delivering quality work.
+          </p>
+          <!-- <div class="about__info">
+            <div>
+              <span class="about__info-title">06+</span>
+              <span class="about__info-name">Years <br> experience</span>
+            </div>
+            <div>
+              <span class="about__info-title">4+</span>
+              <span class="about__info-name">Completed <br> products</span>
+            </div>
+            <div>
+              <span class="about__info-title">7+</span>
+              <span class="about__info-name">Completed <br> projects</span>
+            </div>
+          </div> -->
+          <div class="about__buttons">
+            <a href="/portfolio/assets/pdf/Zenia Parvin Resume.pdf" download="" class="button button--flex">
+              Download Resume<i class="uil uil-download-alt button__icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== SKILLS ====================-->
+    <section class="skills section" id="skills">
+      <h2 class="section__title">Skills</h2>
+      <span class="section__subtitle">My technical level</span>
+      <div class="skills__container">
+        <div id="skills" class="container-fluid amg-skills">
+          <div class="row amg-badge-collection">
+            <div class="col-xs-3 amg-badge">
+              <img src="./assets/img/html-5.svg" alt="HTML5">
+            </div>
+            <div class="col-xs-3 amg-badge">
+              <img src="./assets/img/css-3.svg" alt=" CSS3">
+            </div>
+            <div class="col-xs-3 amg-badge">
+              <img src="./assets/img/javascript.svg" alt="JavaScript">
+            </div>
+            <div class="col-xs-3 amg-badge">
+              <img src="./assets/img/tailwindCss.png" alt="tailwindCss">
+            </div>
+            <div class="col-xs-3 amg-badge">
+              <img src="./assets/img/react.png" alt="React">
+            </div>
+            <div class="col-xs-3 amg-badge">
+              <img src="./assets/img/excel.svg" alt="Excel">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== PORTFOLIO ====================-->
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section__title">Portfolio</h2>
+      <span class="section__subtitle">Most recent work</span>
+
+      <div class="portfolio__container container">
+        <!--==================== PORTFOLIO 1 ==================== -->
+        <div class="portfolio__content">
+          <img src="./assets/img/portfolio 1 ss.png" alt="portfolio image 1" class="portfolio__img">
+          <div class="portfolio__data">
+            <h3 class="portfolio__title">GUESS THE NUMBER</h3>
+            <p class="portfolio__description">The Number Guessing Game is a classic interactive game where players attempt to guess a secret number chosen by a computer or another player. The game can vary in complexity and rules, but the core concept remains the same: players make guesses and receive feedback to help them hone in on the correct number.</p>
+            <div class="project__links">
+              <a href="https://github.com/zeniaparvin/JS-PROJECTS/tree/main/GUESS%20THE%20NUMBER" target="_blank" class=" portfolio__button">
+                Code
+                <i class="uil uil-github button__icon"></i>
+              </a>
+              <a href="https://numbers-pool.netlify.app/" target="_blank" class=" portfolio__button">
+                Live
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!--==================== PORTFOLIO 2 ==================== -->
+
+        <div class="portfolio__content">
+          <img src="./assets/img/protfolio 2.png" alt="portfolio image 1" class="portfolio__img">
+          <div class="portfolio__data">
+            <h3 class="portfolio__title">INRACTIVE RATING COMPONENT</h3>
+            <p class="portfolio__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio assumenda,
+              error voluptate recusandae consequuntur eius hic minima laudantium commodi reiciendis ad tempore
+              necessitatibus</p>
+            <div class="project__links">
+              <a href="https://github.com/zeniaparvin/interactive-rating" target="_blank" class=" portfolio__button">
+                Code
+                <i class="uil uil-github button__icon"></i>
+              </a>
+              <a href="https://zeniaparvin.github.io/interactive-rating/" target="_blank" class=" portfolio__button">
+                Live
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!--==================== PORTFOLIO 3 ==================== -->
+
+      </div>
+    </section>
+
+  </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer">
+    <div class="footer__bg">
+      <p class="footer__copy">&#169; Zenia. All right reserved</p>
+    </div>
+  </footer>
+
+  <!--==================== SCROLL TOP ====================-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup__icon"></i>
+  </a>
+  <!--==================== MAIN JS ====================-->
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
